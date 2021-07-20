@@ -16,4 +16,7 @@ E233系3000番台はJR東日本が所有する一般型車両で、東海道線�
   * 営利目的での利用を禁止します
   * 元の作品を改変を禁止します
 
-なお二次配布は<font color="Red">禁止</font>です。
+なおデータを改変していたいなくても二次配布は<font color="Red">禁止</font>です。<br>
+### 著作権の例外
+データ内に含まれるATS.wav、ATS_Cnt.wav、EB.wav、HornA.wav、HornB.wav、HornC.wav、HornD.wavは[BVE Trainsim 内房線 for BVE5.8 & BVE6.0 正式版](http://bvets.net/uchibo/)に含まれるデータをお借りし、一部編集して使用しております。<br>
+またATS_Ding.wavはUnicorn様が制作したats_p_bell.wav[ats_p_bell.wav](http://bvets.net/uchibo/)のファイル名を変更したうえで使用させていただいております。
