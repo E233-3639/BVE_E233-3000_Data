@@ -37,7 +37,7 @@ E233系3000番台はJR東日本が所有する一般型車両で、東海道線�
 このようにATS電源が点灯中は15km/h以下で走行して下さい。
 ![image](https://user-images.githubusercontent.com/66541951/129451391-8e93d3f6-a5fa-4ef5-8e79-14f1983dcb31.png)
 
-しばらく走行するとATS-Pにが点灯します。この状態からは通常通り運転できます。
+しばらく走行するとATS-Pが点灯します。この状態からは通常通り運転できます。
 ![image](https://user-images.githubusercontent.com/66541951/129451430-2347e9f6-5426-420c-9b2a-c07ee8b75b95.png)
 
 ### BVEにおけるキー
