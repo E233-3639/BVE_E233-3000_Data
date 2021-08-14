@@ -1,0 +1,88 @@
+BveTs Vehicle Sound 3.01
+
+[Run]
+0 = Run\Run_Long1.wav
+1 = Run\Run_Long2.wav
+2 = Run\Run_Short.wav
+3 = Run\Run_SlabShort.wav
+5 = Run\Run_Tekkyo.wav
+6 = Run\Run_Tunnel.wav
+
+[Flange]
+0 = Run\Flange1.wav
+1 = Run\Flange2.wav
+2 = Run\Flange3.wav
+
+[Motor]
+0 = Motor\MotorP1_Oflat.wav
+1 = Motor\MotorP1_Sub.wav
+2 = Motor\MotorP1-P2_L.wav
+3 = Motor\MotorP2.wav
+4 = Motor\MotorP3.wav
+5 = Motor\MotorP4.wav
+6 = Motor\MotorP5.wav
+7 = Motor\MotorP6.wav
+8 = Motor\MotorP7-1.wav
+9 = Motor\MotorP8-1.wav
+10 = Motor\MotorP8-2.wav
+11 = Motor\MotorP8-3.wav
+12 = Motor\MotorB1.wav
+13 = Motor\MotorB2.wav
+14 = Motor\MotorB3.wav
+15 = Motor\MotorB4.wav
+16 = Motor\MotorB5.wav
+17 = Motor\MotorB6.wav
+18 = Motor\MotorB7.wav
+19 = Motor\MotorB8.wav
+20 = Motor\MotorB9_H.wav
+21 = Motor\MotorB9_L.wav
+22 = Motor\MotorB9_Oflat.wav
+23 = Motor\MotorB10_H.wav
+24 = Motor\MotorB10_L.wav
+25 = Motor\MotorB10_Oflat.wav
+26 = Motor\MotorB11_H.wav
+27 = Motor\MotorB11_M.wav
+28 = Motor\MotorB11_L.wav
+29 = Motor\MotorB11_LL.wav
+30 = Motor\MotorB11_Oflat.wav
+31 = Motor\MotorB12_H.wav
+32 = Motor\MotorB12_L.wav
+33 = Motor\MotorB14.wav
+
+[Joint]
+0 = Run\Point.wav
+
+[Brake]
+
+
+[Compressor]
+
+
+[Suspension]
+Left = AirSpring\AirSpring_Up.wav
+Right = AirSpring\AirSpring_Up.wav
+
+[Horn]
+Primary = Horn\HornA.wav
+PrimaryRelease = Horn\HornB.wav
+Secondary = Horn\HornC.wav
+SecondaryRelease = Horn\HornD.wav
+
+[Door]
+OpenLeft = Door\DoorOpen2.wav
+OpenRight = Door\DoorOpen2.wav
+CloseLeft = Door\DoorClose2.wav
+CloseRight = Door\DoorClose2.wav
+
+[ATS]
+0 = Air\AirDownZero1.wav
+1 = Air\AirUp.wav
+10 = Air\AirDownEB.wav
+
+200 = ATS\ATS_Ding.wav
+201 = ATS\ATS.wav
+#s202 = ATS\ATS_Cnt.wav
+203 = ATS\EB.wav
+
+[Others]
+Noise = Noise.wav

@@ -1,0 +1,554 @@
+BveTs Instrument Panel 2.00
+
+#運転台
+[This]
+Resolution = 2353
+Left = 87
+Top = 100
+Right = 4009
+Bottom = 2915
+DaytimeImage = Panel's picture\Panel_A2.png
+NighttimeImage = Panel's picture\Panel_N2.png
+Center = 2928, 1500
+Origin = 1982, 1550
+
+#戸閉灯
+[PilotLamp]
+Subject = door
+Location = 1856, 2283
+DaytimeImage = Panel's picture\PilotLamp_A.png
+NighttimeImage = Panel's picture\PilotLamp_N.png
+Layer = 2
+
+#EBリセット
+[PilotLamp]
+Subject = ats230
+Location = 3580, 2488
+DaytimeImage = Panel's picture\EBLamp_A.png
+NighttimeImage = Panel's picture\EBLamp_N.png
+Layer = 2
+
+
+#第1 計器モニター
+#BrakeLocation ブレーキハンドル表示 B1-B8
+[DigitalNumber]
+Subject = ats50
+Location = 1028,2454
+DaytimeImage = Panel's picture\Number 1 monitor\Brake_location_B1-B8.png
+NighttimeImage = Panel's picture\Number 1 monitor\Brake_location_B1-B8.png
+Layer = 2
+Interval = 223
+
+#BrakeLocation ブレーキハンドル表示 EB
+[PilotLamp]
+Subject = ats51
+Location = 1039, 2377
+DaytimeImage = Panel's picture\Number 1 monitor\Brake_location_EB.png
+NighttimeImage = Panel's picture\Number 1 monitor\Brake_location_EB.png
+Layer = 2
+
+#抑速表示
+[PilotLamp]
+Subject = ats53
+Location = 1037, 2411
+DaytimeImage = Panel's picture\Number 1 monitor\Yokusoku.png
+NighttimeImage = Panel's picture\Number 1 monitor\Yokusoku.png
+Layer = 2
+
+#BC 圧力計表示 0kPa-260kPa
+[DigitalNumber]
+Subject = ats55
+Location = 1083, 2414
+DaytimeImage = Panel's picture\Number 1 monitor\BC_0kPa-260kPa.png
+NighttimeImage = Panel's picture\Number 1 monitor\BC_0kPa-260kPa.png
+Layer = 2
+Interval = 269
+
+#BC 圧力計表示 270kPa-530kPa
+[DigitalNumber]
+Subject = ats56
+Location = 1083, 2414
+DaytimeImage = Panel's picture\Number 1 monitor\BC_270kPa-530kPa.png
+NighttimeImage = Panel's picture\Number 1 monitor\BC_270kPa-530kPa.png
+Layer = 2
+Interval = 269
+
+#BC 圧力計表示 540kPa-800kPa
+[DigitalNumber]
+Subject = ats57
+Location = 1083, 2414
+DaytimeImage = Panel's picture\Number 1 monitor\BC_540kPa-800kPa.png
+NighttimeImage = Panel's picture\Number 1 monitor\BC_540kPa-800kPa.png
+Layer = 2
+Interval = 269
+
+#BC 圧力計表示 540kPa-800kPa
+[DigitalNumber]
+Subject = ats57
+Location = 1083, 2414
+DaytimeImage = Panel's picture\Number 1 monitor\BC_540kPa-800kPa.png
+NighttimeImage = Panel's picture\Number 1 monitor\BC_540kPa-800kPa.png
+Layer = 2
+Interval = 269
+
+#BC200kPa警告表示
+[PilotLamp]
+Subject = ats59
+Location = 1135,2590
+DaytimeImage = Panel's picture\Number 1 monitor\BC200kPaWarning.png
+NighttimeImage = Panel's picture\Number 1 monitor\BC200kPaWarning.png
+Layer = 1
+
+#MR 元空気溜め表示 700kPaー845kPa
+[DigitalNumber]
+Subject = ats60
+Location = 1217,2418
+DaytimeImage = Panel's picture\Number 1 monitor\MR_700kPa-845kPa.png
+NighttimeImage = Panel's picture\Number 1 monitor\MR_700kPa-845kPa.png
+Layer = 2
+Interval = 268
+
+#MR 元空気溜め表示 700kPaー845kPa
+[DigitalNumber]
+Subject = ats61
+Location = 1217,2418
+DaytimeImage = Panel's picture\Number 1 monitor\MR_850kPa-995kPa.png
+NighttimeImage = Panel's picture\Number 1 monitor\MR_850kPa-995kPa.png
+Layer = 2
+Interval = 268
+
+#MR 元空気溜め表示 1000kPa
+[PilotLamp]
+Subject = ats62
+Location = 1217,2418
+DaytimeImage = Panel's picture\Number 1 monitor\MR_1000kPa.png
+NighttimeImage = Panel's picture\Number 1 monitor\MR_1000kPa.png
+Layer = 2
+
+#計器モニターSpeed　1の位
+[DigitalNumber]
+Subject = ats11
+Location = 1498, 2630
+DaytimeImage = Panel's picture\Number 1 monitor\Speed_number.png
+NighttimeImage = Panel's picture\Number 1 monitor\Speed_number.png
+Layer = 2
+Interval = 62
+
+#計器モニターSpeed　10の位
+[DigitalNumber]
+Subject = ats12
+Location = 1452, 2629
+DaytimeImage = Panel's picture\Number 1 monitor\Speed_number.png
+NighttimeImage = Panel's picture\Number 1 monitor\Speed_number.png
+Layer = 2
+Interval = 62
+
+#計器モニターSpeed　100の位
+[DigitalNumber]
+Subject = ats13
+Location = 1406, 2628
+DaytimeImage = Panel's picture\Number 1 monitor\Speed_number.png
+NighttimeImage = Panel's picture\Number 1 monitor\Speed_number.png
+Layer = 2
+Interval = 62
+
+#速度計 針
+[needle]
+subject = ats14
+Location = 1482, 2570
+DaytimeImage = Panel's picture\Number 1 monitor\Speedmeter_needle.png
+NighttimeImage = Panel's picture\Number 1 monitor\Speedmeter_needle.png
+Origin = 11, 114
+Layer = 2
+Radius = 113.75
+InitialAngle = -117.85
+LastAngle = 123.15
+Minimum = 0
+Maximum = 160
+Tilt = -2.5, 2
+StopPin = true
+NaturalFreq = 0
+DampingRatio = 0
+
+#電圧計(左) 針
+[needle]
+subject = ats91
+Location = 1115, 2312
+DaytimeImage = Panel's picture\Number 1 monitor\Voltmeter_needle.png
+NighttimeImage = Panel's picture\Number 1 monitor\Voltmeter_needle.png
+Origin = 7, 62
+Layer = 2
+Radius = 59.5
+InitialAngle = -116.75
+LastAngle = 93.5
+Minimum = 0
+Maximum = 150
+Tilt = -5, 10
+StopPin = true
+NaturalFreq = 0
+DampingRatio = 0
+
+#電圧計(右) 針
+[needle]
+subject = ats92
+Location = 1305, 2318
+DaytimeImage = Panel's picture\Number 1 monitor\Voltmeter_needle.png
+NighttimeImage = Panel's picture\Number 1 monitor\Voltmeter_needle.png
+Origin = 7, 62
+Layer = 2
+Radius = 59.5
+InitialAngle = -116.75
+LastAngle = 93.5
+Minimum = 0
+Maximum = 200
+Tilt = -5, 10
+StopPin = true
+NaturalFreq = 0
+DampingRatio = 0
+
+#P電源
+[PilotLamp]
+Subject = ats200
+Location = 1404, 2231
+DaytimeImage = Panel's picture\Number 1 monitor\PDengenn.png
+NighttimeImage = Panel's picture\Number 1 monitor\PDengenn.png
+Layer = 2
+
+#パターン接近
+[PilotLamp]
+Subject = ats201
+Location = 1432, 2231
+DaytimeImage = Panel's picture\Number 1 monitor\PatternSekkinn.png
+NighttimeImage = Panel's picture\Number 1 monitor\PatternSekkinn.png
+Layer = 2
+
+#ブレーキ動作
+[PilotLamp]
+Subject = ats202
+Location = 1459, 2233
+DaytimeImage = Panel's picture\Number 1 monitor\BrakeDousa.png
+NighttimeImage = Panel's picture\Number 1 monitor\BrakeDousa.png
+Layer = 2
+
+#ATS-P
+[PilotLamp]
+Subject = ats205
+Location = 1540, 2235
+DaytimeImage = Panel's picture\Number 1 monitor\ATS-P.png
+NighttimeImage = Panel's picture\Number 1 monitor\ATS-P.png
+Layer = 2
+
+#ATS電源
+[PilotLamp]
+Subject = ats207
+Location = 1603, 2238
+DaytimeImage = Panel's picture\Number 1 monitor\ATSDenngenn.png
+NighttimeImage = Panel's picture\Number 1 monitor\ATSDenngenn.png
+Layer = 2
+
+#ATS動作
+[PilotLamp]
+Subject = ats208
+Location = 1629, 2239
+DaytimeImage = Panel's picture\Number 1 monitor\ATSDousa.png
+NighttimeImage = Panel's picture\Number 1 monitor\ATSDousa.png
+Layer = 2
+
+#定速
+[PilotLamp]
+Subject = ats52
+Location = 1574, 2306
+DaytimeImage = Panel's picture\Number 1 monitor\Teisoku.png
+NighttimeImage = Panel's picture\Number 1 monitor\Teisoku.png
+Layer = 2
+
+
+#第2 TIMSモニター
+#Door1
+[PilotLamp]
+Subject = ats101
+Location = 2474, 2482
+DaytimeImage = Panel's picture\Number 2 TIMS monitor\Door1.png
+NighttimeImage = Panel's picture\Number 2 TIMS monitor\Door1.png
+Layer = 2
+
+#Door2
+[PilotLamp]
+Subject = ats102
+Location = 2508, 2482
+DaytimeImage = Panel's picture\Number 2 TIMS monitor\Door2.png
+NighttimeImage = Panel's picture\Number 2 TIMS monitor\Door2.png
+Layer = 2
+
+#Door3
+[PilotLamp]
+Subject = ats103
+Location = 2541, 2482
+DaytimeImage = Panel's picture\Number 2 TIMS monitor\Door3.png
+NighttimeImage = Panel's picture\Number 2 TIMS monitor\Door3.png
+Layer = 2
+
+#Door4
+[PilotLamp]
+Subject = ats104
+Location = 2575, 2482
+DaytimeImage = Panel's picture\Number 2 TIMS monitor\Door4.png
+NighttimeImage = Panel's picture\Number 2 TIMS monitor\Door4.png
+Layer = 2
+
+#Door5
+[PilotLamp]
+Subject = ats105
+Location = 2608, 2482
+DaytimeImage = Panel's picture\Number 2 TIMS monitor\Door5.png
+NighttimeImage = Panel's picture\Number 2 TIMS monitor\Door5.png
+Layer = 2
+
+#Door6
+[PilotLamp]
+Subject = ats106
+Location = 2642, 2482
+DaytimeImage = Panel's picture\Number 2 TIMS monitor\Door6.png
+NighttimeImage = Panel's picture\Number 2 TIMS monitor\Door6.png
+Layer = 2
+
+#Door7
+[PilotLamp]
+Subject = ats107
+Location = 2675, 2482
+DaytimeImage = Panel's picture\Number 2 TIMS monitor\Door7.png
+NighttimeImage = Panel's picture\Number 2 TIMS monitor\Door7.png
+Layer = 2
+
+#Door8
+[PilotLamp]
+Subject = ats108
+Location = 2709, 2482
+DaytimeImage = Panel's picture\Number 2 TIMS monitor\Door8.png
+NighttimeImage = Panel's picture\Number 2 TIMS monitor\Door8.png
+Layer = 2
+
+#Door9
+[PilotLamp]
+Subject = ats109
+Location = 2743, 2482
+DaytimeImage = Panel's picture\Number 2 TIMS monitor\Door9.png
+NighttimeImage = Panel's picture\Number 2 TIMS monitor\Door9.png
+Layer = 2
+
+#Door10
+[PilotLamp]
+Subject = ats110
+Location = 2777, 2482
+DaytimeImage = Panel's picture\Number 2 TIMS monitor\Door10.png
+NighttimeImage = Panel's picture\Number 2 TIMS monitor\Door10.png
+Layer = 2
+
+#Door11
+[PilotLamp]
+Subject = ats111
+Location = 2810, 2482
+DaytimeImage = Panel's picture\Number 2 TIMS monitor\Door11.png
+NighttimeImage = Panel's picture\Number 2 TIMS monitor\Door11.png
+Layer = 2
+
+#Door12
+[PilotLamp]
+Subject = ats112
+Location = 2844, 2482
+DaytimeImage = Panel's picture\Number 2 TIMS monitor\Door12.png
+NighttimeImage = Panel's picture\Number 2 TIMS monitor\Door12.png
+Layer = 2
+
+#Door13
+[PilotLamp]
+Subject = ats113
+Location = 2877, 2482
+DaytimeImage = Panel's picture\Number 2 TIMS monitor\Door13.png
+NighttimeImage = Panel's picture\Number 2 TIMS monitor\Door13.png
+Layer = 2
+
+#Door14
+[PilotLamp]
+Subject = ats114
+Location = 2911, 2482
+DaytimeImage = Panel's picture\Number 2 TIMS monitor\Door14.png
+NighttimeImage = Panel's picture\Number 2 TIMS monitor\Door14.png
+Layer = 2
+
+#Door15
+[PilotLamp]
+Subject = ats115
+Location = 2945, 2482
+DaytimeImage = Panel's picture\Number 2 TIMS monitor\Door15.png
+NighttimeImage = Panel's picture\Number 2 TIMS monitor\Door15.png
+Layer = 2
+
+#ユニット 2号車
+[DigitalNumber]
+Subject = ats1
+Location = 2508, 2517
+DaytimeImage = Panel's picture\Number 2 TIMS monitor\Unit_Car2.png
+NighttimeImage = Panel's picture\Number 2 TIMS monitor\Unit_Car2.png
+Layer = 2
+Interval = 21
+
+#ユニット 3号車
+[DigitalNumber]
+Subject = ats2
+Location = 2542, 2517
+DaytimeImage = Panel's picture\Number 2 TIMS monitor\Unit_Car3.png
+NighttimeImage = Panel's picture\Number 2 TIMS monitor\Unit_Car3.png
+Layer = 2
+Interval = 21
+
+#ユニット 6号車
+[DigitalNumber]
+Subject = ats3
+Location = 2643, 2517
+DaytimeImage = Panel's picture\Number 2 TIMS monitor\Unit_Car6.png
+NighttimeImage = Panel's picture\Number 2 TIMS monitor\Unit_Car6.png
+Layer = 2
+Interval = 21
+
+#ユニット 7号車
+[DigitalNumber]
+Subject = ats4
+Location = 2677, 2517
+DaytimeImage = Panel's picture\Number 2 TIMS monitor\Unit_Car7.png
+NighttimeImage = Panel's picture\Number 2 TIMS monitor\Unit_Car7.png
+Layer = 2
+Interval = 21
+
+#ユニット 8号車
+[DigitalNumber]
+Subject = ats5
+Location = 2711, 2517
+DaytimeImage = Panel's picture\Number 2 TIMS monitor\Unit_Car8.png
+NighttimeImage = Panel's picture\Number 2 TIMS monitor\Unit_Car8.png
+Layer = 2
+Interval = 21
+
+#ユニット 9号車
+[DigitalNumber]
+Subject = ats6
+Location = 2744, 2517
+DaytimeImage = Panel's picture\Number 2 TIMS monitor\Unit_Car9.png
+NighttimeImage = Panel's picture\Number 2 TIMS monitor\Unit_Car9.png
+Layer = 2
+Interval = 21
+
+#ユニット 12号車
+[DigitalNumber]
+Subject = ats7
+Location = 2845, 2517
+DaytimeImage = Panel's picture\Number 2 TIMS monitor\Unit_Car12.png
+NighttimeImage = Panel's picture\Number 2 TIMS monitor\Unit_Car12.png
+Layer = 2
+Interval = 21
+
+#ユニット 13号車
+[DigitalNumber]
+Subject = ats8
+Location = 2879, 2517
+DaytimeImage = Panel's picture\Number 2 TIMS monitor\Unit_Car13.png
+NighttimeImage = Panel's picture\Number 2 TIMS monitor\Unit_Car13.png
+Layer = 2
+Interval = 21
+
+#進行方向1号車
+[PilotLamp]
+Subject = ats95
+Location = 2461, 2520
+DaytimeImage = Panel's picture\Number 2 TIMS monitor\Direction1.png
+NighttimeImage = Panel's picture\Number 2 TIMS monitor\Direction1.png
+Layer = 2
+
+#進行方向15号車
+[PilotLamp]
+Subject = ats96
+Location = 2981, 2520
+DaytimeImage = Panel's picture\Number 2 TIMS monitor\Direction15.png
+NighttimeImage = Panel's picture\Number 2 TIMS monitor\Direction15.png
+Layer = 2
+
+#時計(秒)　1の位
+[DigitalNumber]
+Subject = ats31
+Location = 2657, 2185
+DaytimeImage = Panel's picture\Number 2 TIMS monitor\TIMS_Number_small.png
+NighttimeImage = Panel's picture\Number 2 TIMS monitor\TIMS_Number_small.png
+Layer = 2
+Interval = 17
+
+#時計(秒)　10の位
+[DigitalNumber]
+Subject = ats32
+Location = 2642, 2185
+DaytimeImage = Panel's picture\Number 2 TIMS monitor\TIMS_Number_small.png
+NighttimeImage = Panel's picture\Number 2 TIMS monitor\TIMS_Number_small.png
+Layer = 2
+Interval = 17
+
+#時計(分)　1の位
+[DigitalNumber]
+Subject = ats33
+Location = 2613, 2185
+DaytimeImage = Panel's picture\Number 2 TIMS monitor\TIMS_Number_small.png
+NighttimeImage = Panel's picture\Number 2 TIMS monitor\TIMS_Number_small.png
+Layer = 2
+Interval = 17
+
+#時計(分)　10の位
+[DigitalNumber]
+Subject = ats34
+Location = 2598, 2185
+DaytimeImage = Panel's picture\Number 2 TIMS monitor\TIMS_Number_small.png
+NighttimeImage = Panel's picture\Number 2 TIMS monitor\TIMS_Number_small.png
+Layer = 2
+Interval = 17
+
+#時計(時)　1の位
+[DigitalNumber]
+Subject = ats35
+Location = 2569, 2185
+DaytimeImage = Panel's picture\Number 2 TIMS monitor\TIMS_Number_small.png
+NighttimeImage = Panel's picture\Number 2 TIMS monitor\TIMS_Number_small.png
+Layer = 2
+Interval = 17
+
+#時計(時)　10の位
+[DigitalNumber]
+Subject = ats36
+Location = 2554, 2185
+DaytimeImage = Panel's picture\Number 2 TIMS monitor\TIMS_Number_small.png
+NighttimeImage = Panel's picture\Number 2 TIMS monitor\TIMS_Number_small.png
+Layer = 2
+Interval = 17
+
+#TimsSpeed　1の位
+[DigitalNumber]
+Subject = ats21
+Location = 2628, 2201
+DaytimeImage = Panel's picture\Number 2 TIMS monitor\TIMS_Number_small.png
+NighttimeImage = Panel's picture\Number 2 TIMS monitor\TIMS_Number_small.png
+Layer = 2
+Interval = 17
+
+#TimsSpeed　10の位
+[DigitalNumber]
+Subject = ats22
+Location = 2613, 2201
+DaytimeImage = Panel's picture\Number 2 TIMS monitor\TIMS_Number_small.png
+NighttimeImage = Panel's picture\Number 2 TIMS monitor\TIMS_Number_small.png
+Layer = 2
+Interval = 17
+
+#TimsSpeed　100の位
+[DigitalNumber]
+Subject = ats23
+Location = 2598, 2201
+DaytimeImage = Panel's picture\Number 2 TIMS monitor\TIMS_Number_small.png
+NighttimeImage = Panel's picture\Number 2 TIMS monitor\TIMS_Number_small.png
+Layer = 2
+Interval = 17

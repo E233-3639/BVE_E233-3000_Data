@@ -1,0 +1,8 @@
+BveTs Vehicle 2.00
+PerformanceCurve = Performance\Performance.txt
+Parameters = Parameter\Parameter.txt
+Panel = Panel\Panel.txt
+Sound = Sound\Sound1.txt
+Ats64 = ATS64\ATS-P_64x.dll
+Ats32 = ATS32\ATS-P_32x.dll
+MotorNoise = MotorNoise\MotorNoise.txt
