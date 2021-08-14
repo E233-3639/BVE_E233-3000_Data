@@ -29,11 +29,12 @@ E233系3000番台はJR東日本が所有する一般型車両で、東海道線�
 またデータ内のats_p_bell.wavはUnicorn様が制作した[ats_p_bell.wav](http://bvets.net/uchibo/)を使用させていただいております。
 
 ## ダウンロード
-[こちら](https://github.com/E233-3639/BVE_E233-3000_Data/archive/refs/tags/ver1.00.zip)からできます。<br>
+[こちら](https://github.com/E233-3639/BVE_E233-3000_Data/archive/refs/tags/ver1.00.zip)よりダウンロードください。<br>
 ダウンロード後展開してお好みの場所にデータを配置してください。
 ※詳しいダウンロード方法は後日こちらに追記する予定です。
 
 ## 運転方法
+対応している保安装置はATS-Pのみとなります。
 このようにATS電源が点灯中は15km/h以下で走行して下さい。
 ![image](https://user-images.githubusercontent.com/66541951/129451391-8e93d3f6-a5fa-4ef5-8e79-14f1983dcb31.png)
 
