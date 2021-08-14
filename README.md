@@ -26,4 +26,30 @@ E233系3000番台はJR東日本が所有する一般型車両で、東海道線�
 
 ### 著作権の例外
 データ内に含まれるATS.wav、ATS_Cnt.wav、EB.wav、HornA.wav、HornB.wav、HornC.wav、HornD.wavは[BVE Trainsim 内房線 for BVE5.8 & BVE6.0 正式版](http://bvets.net/uchibo/)に含まれるデータをお借りし、一部編集して使用しております。<br>
-またATS_Ding.wavはUnicorn様が制作したats_p_bell.wav[ats_p_bell.wav](http://bvets.net/uchibo/)のファイル名を変更したうえで使用させていただいております。
+またATS_Ding.wavはUnicorn様が制作した[ats_p_bell.wav](http://bvets.net/uchibo/)を使用させていただいております。
+
+## 運転方法
+↑このようにATS電源が点灯中は15km/h以下で走行して下さい。
+![image](https://user-images.githubusercontent.com/66541951/129451391-8e93d3f6-a5fa-4ef5-8e79-14f1983dcb31.png)
+
+↑しばらく走行するとATS-Pにが点灯します。この状態からは通常通り運転できます。
+![image](https://user-images.githubusercontent.com/66541951/129451430-2347e9f6-5426-420c-9b2a-c07ee8b75b95.png)
+
+### BVEにおけるキー
+BVEにはキーボードで様々な操作ができます。またBVEではA1キー、B1キーといった名前のものが存在します。これはBVE内でのキーの名称で、実際にとのキー(Enterキーやスペースキーなど)に割り当てることで使用できます。またキーの割り当ては個人で自由に変更できます。<br>
+変更や割り当てられているキーを確認する場合は、BVEの画面を右クリック→設定→入力デバイス→キーの割り当て で確認・変更ができます。
+
+### ATS復帰扱い
+ブレーキ動作が点灯中はATSブレーキが作動しています。
+![image](https://user-images.githubusercontent.com/66541951/129451622-0256f428-8c88-4f96-99b5-fa304fca4b73.png)
+
+ATS復帰扱いは常用ブレーキ以上または非常ブレーキ(状況によりかける必要があるブレーキが異なります)をかけた状態で、B1キー(BVE内でのキー名称　デフォルトではHOMEキー)を押すと解除されます。
+
+### 定速・抑速制御
+この車両では定速・抑速制御があります。<br>
+定速　速度が55km/h以上かつマスコンをP5にした状態でLキー(BVE内でのキー名称　デフォルトでは0キー)を押すことで動作します。<br>
+抑速　速度が55km/h以上かつマスコンをNにした状態でLキー(BVE内でのキー名称　デフォルトでは0キー)を押すことで動作します。<br><br>
+
+#### 最後に
+ご質問、ご意見、バグ修正などはこのGitHubのissuまたは[Twitter](https://twitter.com/E233_3639)までお寄せください。<br>
+全てにご対応できない場合がございます。ご了承ください。
