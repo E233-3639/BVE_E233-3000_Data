@@ -69,17 +69,17 @@ Secondary = Horn\HornC.wav
 SecondaryRelease = Horn\HornD.wav
 
 [Door]
-OpenLeft = Door\DoorOpen2.wav
-OpenRight = Door\DoorOpen2.wav
-CloseLeft = Door\DoorClose2.wav
-CloseRight = Door\DoorClose2.wav
+OpenLeft = Door\DoorOpen1.wav
+OpenRight = Door\DoorOpen1.wav
+CloseLeft = Door\DoorClose1.wav
+CloseRight = Door\DoorClose1.wav
 
 [ATS]
 0 = Air\AirDownZero1.wav
 1 = Air\AirUp.wav
 10 = Air\AirDownEB.wav
 
-200 = ATS\ATS_Ding.wav
+200 = ATS\ats_p_bell.wav
 201 = ATS\ATS.wav
 #s202 = ATS\ATS_Cnt.wav
 203 = ATS\EB.wav
