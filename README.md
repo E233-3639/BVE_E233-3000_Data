@@ -1,4 +1,4 @@
-# BVE5.8・6向け E233系3000番台車両データ 説明書
+# BVE5.8・6向け E233系3000番台車両データver1.01 説明書
 
 ### このデータをダウンロードした場合、以下に同意したことになります。
 
@@ -29,17 +29,13 @@ E233系3000番台はJR東日本が所有する一般型車両で、東海道線�
 またデータ内のats_p_bell.wavはUnicorn様が制作した[ats_p_bell.wav](http://bvets.net/uchibo/)を使用させていただいております。
 
 ## ダウンロード
-[こちら](https://github.com/E233-3639/BVE_E233-3000_Data/archive/refs/tags/ver1.00.zip)よりダウンロードください。<br>
+[こちら](https://github.com/E233-3639/BVE_E233-3000_Data/archive/refs/tags/ver1.01.zip)よりダウンロードください。<br>
 ダウンロード後展開してお好みの場所にデータを配置してください。
 ※詳しいダウンロード方法は後日こちらに追記する予定です。
 
 ## 運転方法
+### 対応保安装置
 対応している保安装置はATS-Pのみとなります。
-このように「ATS電源」が点灯中は15km/h以下で走行して下さい。
-![image](https://user-images.githubusercontent.com/66541951/129451391-8e93d3f6-a5fa-4ef5-8e79-14f1983dcb31.png)
-
-しばらく走行すると「ATS-P」が点灯します。この状態からは通常通り運転できます。
-![image](https://user-images.githubusercontent.com/66541951/129451430-2347e9f6-5426-420c-9b2a-c07ee8b75b95.png)
 
 ### BVEにおけるキー
 BVEにはキーボードで様々な操作ができます。またBVEではA1キー、B1キーといった名前のものが存在します。これはBVE内でのキーの名称で、実際にとのキー(Enterキーやスペースキーなど)に割り当てることで使用できます。またキーの割り当ては個人で自由に変更できます。<br>
@@ -47,6 +43,7 @@ BVEにはキーボードで様々な操作ができます。またBVEではA1キ
 ![image](https://user-images.githubusercontent.com/66541951/129451992-ca2eb0f6-2469-4d7a-b36d-99b9a27b48db.png)
 
 ### ATS復帰扱い
+ATS-Pのパターンを超えたり、進んでいる向きとは逆に逆転ハンドルを切り替えるとブレーキがATSのブレーキが動作します。<br>
 「ブレーキ動作」が点灯中はATSブレーキが作動しています。
 ![image](https://user-images.githubusercontent.com/66541951/129451622-0256f428-8c88-4f96-99b5-fa304fca4b73.png)
 
