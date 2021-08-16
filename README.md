@@ -1,4 +1,4 @@
-# BVE5.8,6向け E233系3000番台 車両データ ver1.02 説明書
+# BVE5.8,6向け E233系3000番台 車両データ ver1.03 説明書
 
 **このデータをダウンロードした場合、「著作権について」に同意したことになります。**
 
@@ -11,21 +11,25 @@ E233系3000番台はJR東日本が所有する一般型車両で、東海道線�
 ※本物をもとに再現しておりますが、全てを再現しきれていなかったり本物と違う箇所がある場合があります。ご了承ください。
 
 ## 著作権について
-
-この作品の著作権は(著作権の例外 に表記しているデータを除き)[当方](https://github.com/E233-3639)にあり、クリエイティブコモンズ ライセンスを適用します。<br>
-<a rel="license" href="http://creativecommons.org/licenses/by-nc-nd/4.0/"><img alt="クリエイティブ・コモンズ・ライセンス" style="border-width:0" src="https://i.creativecommons.org/l/by-nc-nd/4.0/88x31.png" /></a><br />この 作品 は <a rel="license" href="http://creativecommons.org/licenses/by-nc-nd/4.0/">クリエイティブ・コモンズ 表示 - 非営利 - 改変禁止 4.0 国際 ライセンス</a>の下に提供されています。<br><br>
-このクリエイティブコモンズ ライセンスの意味は以下の通りです。
+この車両データはOriginalDataとExternalDataの構成に分かれています。<br>
+### OriginalData
+OriginalDataは[当方](https://github.com/E233-3639)が制作したものです。<br>
+著作権は[当方](https://github.com/E233-3639)にあり、クリエイティブコモンズ ライセンスを適用します。<br>
+<a rel="license" href="http://creativecommons.org/licenses/by-nc-nd/4.0/"><img alt="クリエイティブ・コモンズ・ライセンス" style="border-width:0" src="https://i.creativecommons.org/l/by-nc-nd/4.0/88x31.png" /></a><br />この 作品 は <a rel="license" href="http://creativecommons.org/licenses/by-nc-nd/4.0/">クリエイティブ・コモンズ 表示 - 非営利 - 改変禁止 4.0 国際 ライセンス</a>の下に提供されています。意味は以下の通りです。<br>
 * 作品のクレジットを必ず表示を義務付けます。
 * 営利目的での利用を禁止します。
 * 元の作品を改変することを禁止します。
 
-この車両データはデータを改変していなくても再配布、二次利用は**禁止**です。<br>
+### ExternalData
+ExternalDataは他作者からお借りしているデータが含まれております。お借りしているデータは以下の通りです。<br>
+ATS.wav、ATS_Cnt.wav、EB.wav、HornA.wav、HornB.wav、HornC.wav、HornD.wavは[BVE Trainsim 内房線 for BVE5.8 & BVE6.0 正式版](http://bvets.net/uchibo/)に含まれるデータをお借りし、一部編集して使用しております。<br>
+ats_p_bell.wavはUnicorn様が制作した[ats_p_bell.wav](https://github.com/uifnm/GeneralAtsPlugin/tree/master/Unicorn/sound)を使用させていただいております。<br>
+このデータの著作権は[当方](https://github.com/E233-3639)にはありません。
+
+### 二次利用などについて
+ライセンスにもある通りこの車両データはデータを改変していなくても再配布、二次利用は**禁止**です。<br>
 ただし、**個人の範囲内(自分が所有するPCなどのデバイスでのみ)であれば**改造は自由です。改造したデータを自分が所有しないPCなどのデバイスにデータをコピーする(SDカードなどの記憶媒体メモリを介すことも含む)、インターネット上に公開することは禁止です。<br>
 **改造は自己責任**です。改造による損失は当方は一切責任を負いません。
-
-### 著作権の例外
-データ内に含まれるATS.wav、ATS_Cnt.wav、EB.wav、HornA.wav、HornB.wav、HornC.wav、HornD.wavは[BVE Trainsim 内房線 for BVE5.8 & BVE6.0 正式版](http://bvets.net/uchibo/)に含まれるデータをお借りし、一部編集して使用しております。<br>
-またデータ内のats_p_bell.wavはUnicorn様が制作した[ats_p_bell.wav](https://github.com/uifnm/GeneralAtsPlugin/tree/master/Unicorn/sound)を使用させていただいております。
 
 ## 動画投稿について
 広告収入を得ないなど**営利目的ではない場合に限り**E233系3000番台車両データをした動画、スクリーンショットの投稿を認めます。動画、スクリーンショット以外は認めません。<br>
@@ -45,6 +49,9 @@ E233系3000番台はJR東日本が所有する一般型車両で、東海道線�
 この車両データにはVehicle1.txtとVehicle2.txtがありドアチャイムが異なります。
 * Vehicle1.txt  一般的なドアチャイム
 * Vehicle2.txt  2017年増備車(E73編成 E74編成)のドアチャイム
+
+Vehicleファイルのファイルパスは<br>
+BVE_E233-3000_Data¥E233-3000_ver1.03¥OriginalData¥Vehicle1.txt、またはBVE_E233-3000_Data¥E233-3000_ver1.03¥OriginalData¥Vehicle2.txtとなります。
 
 ### BVEにおけるキー
 BVEにはキーボードで様々な操作ができます。またBVEではA1キー、B1キーといった名前のものが存在します。これはBVE内でのキーの名称で、実際にどのキー(Enterキーやスペースキーなど)に割り当てることで使用できます。またキーの割り当ては個人で自由に変更できます。<br>
