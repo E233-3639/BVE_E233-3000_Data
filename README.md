@@ -7,11 +7,12 @@ E233系3000番台(15両)を再現したBVE Train Simulator 車両データです
 E233系3000番台はJR東日本が所有する一般型車両で、東海道線、宇都宮線(東北本線)、高崎線などで使用されている車両です。
 
 ## 再現部分
-運転席、運転台、計器モニター、TIMSモニター、モニター類の表示のラグ、予備ワイパー(未動作)、モーター音、走行音、ブレーキ音など。<br>
+運転台、計器モニター、TIMSモニター、モニター類の表示のラグ、予備ワイパー(未動作)、モーター音、走行音、ブレーキ音など。<br>
 ※本物をもとに再現しておりますが、全てを再現しきれていなかったり本物と違う箇所がある場合があります。ご了承ください。
 
 ## 著作権について
-この車両データはOriginalDataとExternalDataの構成に分かれています。<br>
+この車両データはOriginalDataとExternalDataの構成に分かれています。
+
 ### OriginalData
 OriginalDataは[当方](https://github.com/E233-3639)が制作したものです。<br>
 著作権は[当方](https://github.com/E233-3639)にあり、クリエイティブコモンズ ライセンスを適用します。<br>
@@ -36,7 +37,7 @@ ats_p_bell.wavはUnicorn様が制作した[ats_p_bell.wav](https://github.com/ui
 車両データを改変している場合は、動画、スクリーンショットの投稿は**認められません**。
 
 ## ダウンロード
-[こちら](https://github.com/E233-3639/BVE_E233-3000_Data/archive/refs/tags/ver1.02.zip)よりダウンロードください。<br>
+[こちら](https://github.com/E233-3639/BVE_E233-3000_Data/archive/refs/tags/ver1.03.zip)よりダウンロードください。<br>
 ダウンロード後、展開してお好みの場所にデータを配置してください。<br>
 ※車両データをダウンロードしたことによる損失は当方は一切責任を負いません。
 
@@ -50,8 +51,7 @@ ats_p_bell.wavはUnicorn様が制作した[ats_p_bell.wav](https://github.com/ui
 * Vehicle1.txt  一般的なドアチャイム
 * Vehicle2.txt  2017年増備車(E73編成 E74編成)のドアチャイム
 
-Vehicleファイルのファイルパスは<br>
-BVE_E233-3000_Data¥E233-3000_ver1.03¥OriginalData¥Vehicle1.txt、またはBVE_E233-3000_Data¥E233-3000_ver1.03¥OriginalData¥Vehicle2.txtとなります。
+Vehicleファイルのファイルパスは BVE_E233-3000_Data¥E233-3000_ver1.03¥OriginalData¥Vehicle1.txt 、<br>または BVE_E233-3000_Data¥E233-3000_ver1.03¥OriginalData¥Vehicle2.txt となります。
 
 ### BVEにおけるキー
 BVEにはキーボードで様々な操作ができます。またBVEではA1キー、B1キーといった名前のものが存在します。これはBVE内でのキーの名称で、実際にどのキー(Enterキーやスペースキーなど)に割り当てることで使用できます。またキーの割り当ては個人で自由に変更できます。<br>
