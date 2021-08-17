@@ -15,17 +15,17 @@ E233系3000番台はJR東日本が所有する一般型車両で、東海道線�
 
 ### OriginalData
 OriginalDataは[当方](https://github.com/E233-3639)が制作したものです。<br>
-著作権は[当方](https://github.com/E233-3639)にあり、クリエイティブコモンズ ライセンスを適用します。<br>
-<a rel="license" href="http://creativecommons.org/licenses/by-nc-nd/4.0/"><img alt="クリエイティブ・コモンズ・ライセンス" style="border-width:0" src="https://i.creativecommons.org/l/by-nc-nd/4.0/88x31.png" /></a><br />この 作品 は <a rel="license" href="http://creativecommons.org/licenses/by-nc-nd/4.0/">クリエイティブ・コモンズ 表示 - 非営利 - 改変禁止 4.0 国際 ライセンス</a>の下に提供されています。意味は以下の通りです。<br>
+**著作権は[当方](https://github.com/E233-3639)にあり、クリエイティブコモンズ ライセンスを適用します。**<br>
+<a rel="license" href="http://creativecommons.org/licenses/by-nc-nd/4.0/"><img alt="クリエイティブ・コモンズ・ライセンス" style="border-width:0" src="https://i.creativecommons.org/l/by-nc-nd/4.0/88x31.png" /></a><br />この OriginalData は <a rel="license" href="http://creativecommons.org/licenses/by-nc-nd/4.0/">クリエイティブ・コモンズ 表示 - 非営利 - 改変禁止 4.0 国際 ライセンス</a>の下に提供されています。意味は以下の通りです。<br>
 * 作品のクレジットを必ず表示を義務付けます。
 * 営利目的での利用を禁止します。
 * 元の作品を改変することを禁止します。
 
 ### ExternalData
-ExternalDataは他作者からお借りしているデータが含まれております。お借りしているデータは以下の通りです。<br>
+ExternalDataは他作者からお借りしているデータがございます。お借りしているデータは以下の通りです。<br>
 ATS.wav、ATS_Cnt.wav、EB.wav、HornA.wav、HornB.wav、HornC.wav、HornD.wavは[BVE Trainsim 内房線 for BVE5.8 & BVE6.0 正式版](http://bvets.net/uchibo/)に含まれるデータをお借りし、一部編集して使用しております。<br>
 ats_p_bell.wavはUnicorn様が制作した[ats_p_bell.wav](https://github.com/uifnm/GeneralAtsPlugin/tree/master/Unicorn/sound)を使用させていただいております。<br>
-このデータの著作権は[当方](https://github.com/E233-3639)にはありません。
+**ExternalDataの著作権は[当方](https://github.com/E233-3639)にはありません。**
 
 ### 二次利用などについて
 ライセンスにもある通りこの車両データはデータを改変していなくても再配布、二次利用は**禁止**です。<br>
@@ -84,11 +84,13 @@ Run音は車両データのSound.txtで以下の画像のように定義され�
 * Run_Short.wav        25mレール
 * Run_SlabShort.wav    スラブ軌道
 * Run_Tekkyo.wav       鉄橋
-* Run_Tunnel.wav       トンネル 地下区間<br>
-「0 = 〇〇¥〇〇.wav」のように定義します。左辺はキー名、右辺は音源ファイルまでの相対パスです。<br><br>
+* Run_Tunnel.wav       トンネル 地下区間
 
-実際にどのRun音を再生するかは路線データで定義します。そのため、「鉄橋を走っていないのに鉄橋の走行音になる」といった異常な状態の場合は、車両データのRun音定義のうち左辺(キー)を変更していただくようお願いします。<br>
-※路線データを改変しても対処できますが、他作者の路線データを改変することになるため、説明書やReadmeなど確認するなど**路線制作者の許可を取った上で**行ってください。
+Run音は「0 = 〇〇¥〇〇.wav」のように定義します。左辺はインデックス名、右辺は音源ファイルまでの相対パスです。<br><br>
+
+実際にどのRun音を再生するかは路線データのMapファイルで定義します。構文はRollingNoise.Change(index)です。indexには「0 = 〇〇¥〇〇.wav」の左辺を入力します。この構文を記述すると、インデックスに定義されている走行音に変わります。<br>
+「鉄橋を走っていないのに鉄橋の走行音になる」といった異常な状態の場合は、車両データのRun音定義、または路線データのMapファイルにRollingNoise.Change(index)を記述する方法があります。<br>
+※路線データを改変する場合、他作者のデータを改変することになるため、説明書やReadmeなど確認するなど**路線制作者の許可を取った上で**行ってください。
 
 ### 最後に
 ご質問、ご意見などは[Twitter](https://twitter.com/E233_3639)までお寄せください。<br>
