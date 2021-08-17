@@ -59,7 +59,7 @@ BVEにはキーボードで様々な操作ができます。またBVEではA1キ
 ![image](https://user-images.githubusercontent.com/66541951/129451992-ca2eb0f6-2469-4d7a-b36d-99b9a27b48db.png)
 
 ### ATS復帰扱い
-ATS-Pのパターンを超えたり、進んでいる向きとは逆に逆転ハンドルを切り替えるとブレーキがATSのブレーキが動作します。<br>
+ATS-Pのパターンを超えたり、進んでいる向きとは逆に逆転ハンドルを切り替えるとブレーキがATSブレーキが動作します。<br>
 「ブレーキ動作」が点灯中はATSブレーキが作動しています。
 ![image](https://user-images.githubusercontent.com/66541951/129451622-0256f428-8c88-4f96-99b5-fa304fca4b73.png)
 
