@@ -16,7 +16,7 @@ E233系3000番台はJR東日本が所有する一般型車両で、東海道線�
 ### OriginalData
 OriginalDataは[当方](https://github.com/E233-3639)が制作したものです。<br>
 **著作権は[当方](https://github.com/E233-3639)にあり、クリエイティブコモンズ ライセンスを適用します。**<br>
-<a rel="license" href="http://creativecommons.org/licenses/by-nc-nd/4.0/"><img alt="クリエイティブ・コモンズ・ライセンス" style="border-width:0" src="https://i.creativecommons.org/l/by-nc-nd/4.0/88x31.png" /></a><br />この OriginalData は <a rel="license" href="http://creativecommons.org/licenses/by-nc-nd/4.0/">クリエイティブ・コモンズ 表示 - 非営利 - 改変禁止 4.0 国際 ライセンス</a>の下に提供されています。意味は以下の通りです。<br>
+<a rel="license" href="http://creativecommons.org/licenses/by-nc-nd/4.0/"><img alt="クリエイティブ・コモンズ・ライセンス" style="border-width:0" src="https://i.creativecommons.org/l/by-nc-nd/4.0/88x31.png" /></a><br />OriginalData は <a rel="license" href="http://creativecommons.org/licenses/by-nc-nd/4.0/">クリエイティブ・コモンズ 表示 - 非営利 - 改変禁止 4.0 国際 ライセンス</a>の下に提供されています。意味は以下の通りです。<br>
 * 作品のクレジットを必ず表示を義務付けます。
 * 営利目的での利用を禁止します。
 * 元の作品を改変することを禁止します。
