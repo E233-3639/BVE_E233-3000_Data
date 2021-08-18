@@ -52,9 +52,8 @@ ats_p_bell.wavはUnicorn様が制作した[ats_p_bell.wav](https://github.com/ui
 * Vehicle1.txt  一般的なドアチャイム
 * Vehicle2.txt  2017年増備車(E73編成 E74編成)のドアチャイム
 
-Vehicleファイルのファイルパスは<br>
-BVE_E233-3000_Data¥E233-3000_ver1.03¥E233-3000_ver1.03¥OriginalData¥Vehicle1.txt 、<br>
-または BVE_E233-3000_Data¥E233-3000_ver1.03¥E233-3000_ver1.03¥OriginalData¥Vehicle2.txt となります。
+Vehicleファイルのファイルパスは BVE_E233-3000_Data¥E233-3000_ver1.03¥OriginalData¥Vehicle1.txt 、<br>
+または BVE_E233-3000_Data¥E233-3000_ver1.03¥OriginalData¥Vehicle2.txt となります。
 
 ### BVEにおけるキー
 BVEにはキーボードで様々な操作ができます。またBVEではA1キー、B1キーといった名前のものが存在します。これはBVE内でのキーの名称で、実際にどのキー(Enterキーやスペースキーなど)に割り当てることで使用できます。またキーの割り当ては個人で自由に変更できます。<br>
