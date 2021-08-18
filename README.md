@@ -28,7 +28,7 @@ ats_p_bell.wavはUnicorn様が制作した[ats_p_bell.wav](https://github.com/ui
 **ExternalDataの著作権は[当方](https://github.com/E233-3639)にはありません。**
 
 ### 二次利用などについて
-ライセンスにもある通りこの車両データはデータを改変していなくても再配布、二次利用は**禁止**です。<br>
+ライセンスにもある通りこの車両データはデータ(またはデータの一部)を改変していなくても再配布、二次利用は**禁止**です。<br>
 ただし、**個人の範囲内(自分が所有するPCなどのデバイスでのみ)であれば**改造は自由です。改造したデータを自分が所有しないPCなどのデバイスにデータをコピーする(SDカードなどの記憶媒体メモリを介すことも含む)、インターネット上に公開することは禁止です。<br>
 **改造は自己責任**です。改造による損失は当方は一切責任を負いません。
 
@@ -52,7 +52,9 @@ ats_p_bell.wavはUnicorn様が制作した[ats_p_bell.wav](https://github.com/ui
 * Vehicle1.txt  一般的なドアチャイム
 * Vehicle2.txt  2017年増備車(E73編成 E74編成)のドアチャイム
 
-Vehicleファイルのファイルパスは BVE_E233-3000_Data¥E233-3000_ver1.03¥E233-3000_ver1.03¥OriginalData¥Vehicle1.txt 、<br>または BVE_E233-3000_Data¥E233-3000_ver1.03¥E233-3000_ver1.03¥OriginalData¥Vehicle2.txt となります。
+Vehicleファイルのファイルパスは<br>
+BVE_E233-3000_Data¥E233-3000_ver1.03¥E233-3000_ver1.03¥OriginalData¥Vehicle1.txt 、<br>
+または BVE_E233-3000_Data¥E233-3000_ver1.03¥E233-3000_ver1.03¥OriginalData¥Vehicle2.txt となります。
 
 ### BVEにおけるキー
 BVEにはキーボードで様々な操作ができます。またBVEではA1キー、B1キーといった名前のものが存在します。これはBVE内でのキーの名称で、実際にどのキー(Enterキーやスペースキーなど)に割り当てることで使用できます。またキーの割り当ては個人で自由に変更できます。<br>
