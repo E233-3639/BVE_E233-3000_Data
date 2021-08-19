@@ -20,8 +20,8 @@ Brake = 0
 
 [MainCircuit]
 RegenerationLimit = 0
-RegenerationStartLimit = 5
-LeverDelay = 0.25
+RegenerationStartLimit = 3
+LeverDelay = 0.5
 BrakePriority = true
 
 [PowerReAdhesion]
@@ -39,7 +39,7 @@ MaximumPressure = 340000
 PressureRates = 0,0.11764705882352941176470588235294,0.23529411764705882352941176470588,0.35294117647058823529411764705882,0.47058823529411764705882352941176,0.5882352941176470588235294117647,0.70588235294117647058823529411764,0.82352941176470588235294117647058,1,1
 SapBcRatio = 1
 SapBcOffset = 1000
-LeverDelay = 0.25
+LeverDelay = 0.5
 
 [AirSupplement]
 MaximumPressure = 221000
@@ -50,7 +50,7 @@ ShoeFriction = 0.27
 [BcServo]
 ApplySpeed = 400
 ReleaseSpeed = 250
-VolumeRatio = 20
+VolumeRatio = 15
 ApplyStart = 0
 ApplyStop = 0
 ReleaseStart = 0

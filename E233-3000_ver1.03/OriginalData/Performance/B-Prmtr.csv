@@ -11,4 +11,4 @@ Stepdelay_Up,0
 Stepdelay_Down,0
 CurrentLimitingValue_Empty,0
 CurrentLimitingValue_Full,0
-ResetTime,1
+ResetTime,0.5
