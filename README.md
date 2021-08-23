@@ -1,4 +1,4 @@
-# BVE5.8,6向け E233系3000番台 車両データ ver1.04 説明書
+# BVE5.8,6向け E233系3000番台 車両データ ver1.05 説明書
 
 **このデータをダウンロードした場合、「著作権について」に同意したことになります。**
 
@@ -37,7 +37,7 @@ ats_p_bell.wavはUnicorn様が制作した[ats_p_bell.wav](https://github.com/ui
 車両データを改変している場合は、動画、スクリーンショットの投稿は**認められません**。
 
 ## ダウンロード
-[こちら](https://github.com/E233-3639/BVE_E233-3000_Data/archive/refs/tags/ver1.04.zip)よりダウンロードください。<br>
+[こちら](https://github.com/E233-3639/BVE_E233-3000_Data/archive/refs/tags/ver1.05.zip)よりダウンロードください。<br>
 ダウンロード後、展開してお好みの場所にデータを配置してください。<br>
 ※車両データをダウンロードしたことによる損失は当方は一切責任を負いません。
 
@@ -51,8 +51,8 @@ ats_p_bell.wavはUnicorn様が制作した[ats_p_bell.wav](https://github.com/ui
 * Vehicle1.txt  一般的なドアチャイム
 * Vehicle2.txt  2017年増備車(E73編成 E74編成)のドアチャイム
 
-Vehicleファイルのファイルパスは E233-3000_ver1.04¥OriginalData¥Vehicle1.txt 、<br>
-または E233-3000_ver1.04¥OriginalData¥Vehicle2.txt となります。
+Vehicleファイルのファイルパスは E233-3000_ver1.05¥OriginalData¥Vehicle1.txt 、<br>
+または E233-3000_ver1.05¥OriginalData¥Vehicle2.txt となります。
 ※ただし、このファイルパスは最も短く書く場合のファイルパスで、車両データと路線データのファイル配置によっては、ここに記載しているファイルパスの頭にさらにファイルパスを書く必要がある場合があります。
 
 ### BVEにおけるキー
