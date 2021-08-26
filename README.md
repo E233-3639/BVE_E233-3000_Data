@@ -51,7 +51,8 @@ ats_p_bell.wavはUnicorn様が制作した[ats_p_bell.wav](https://github.com/ui
 * Vehicle1.txt  一般的なドアチャイム
 * Vehicle2.txt  2017年増備車(E73編成 E74編成)のドアチャイム
 
-では実際にどうやって車両データを読み込ませるのかをご説明します。その際にはVehicleファイル、Scenarioファイル、ファイルパスについて理解する必要があります。<br>
+では実際にどうやって車両データを読み込ませるのかをご説明します。<br>
+その際にはVehicleファイル、Scenarioファイル、ファイルパスについて理解する必要があります。<br>
 * Vehicleファイルとは？<br>
 Vehicleファイルとは車両データを読み込ませる読み込ませるために必要です。Vehicleファイルの場所(ファイルパス)をScenarioファイルに定義することでできます。
 
