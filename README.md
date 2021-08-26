@@ -55,11 +55,12 @@ ats_p_bell.wavはUnicorn様が制作した[ats_p_bell.wav](https://github.com/ui
 その際にはVehicleファイル、Scenarioファイル、ファイルパスについて理解する必要があります。<br><br>
 ・Vehicleファイルとは？<br>
 Vehicleファイルとは車両データを読み込ませる読み込ませるために必要です。Vehicleファイルの場所(ファイルパス)をScenarioファイルに定義することでできます。<br>
+Vehicleファイルは頭に「BveTs Vehicle」と書かれています。<br>
 
 ・Scenarioファイルとは？<br>
 Scenarioファイルとは路線データを読み込ませるために必要です。ダイヤや種別ごとにそれぞれ用意されています。<br>
 ScenarioファイルをBVEに読み込むことでプレイできるようになります。<br>
-Scenarioファイルは開くと頭に「BveTs Scenario」と書かれています。シナリオ一つ一つがScenarioファイルです。<br>
+Scenarioファイルは頭に「BveTs Scenario」と書かれています。下記画像のシナリオ一つ一つがScenarioファイルです。<br>
 ![image](https://user-images.githubusercontent.com/66541951/131004091-2b30a83f-2ea3-40a7-b725-03a95cad675b.png)
 
 画像内に「Vehicle = 車両データのファイルパス」という式があります。<br>
