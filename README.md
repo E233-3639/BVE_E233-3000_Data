@@ -32,13 +32,13 @@ ats_p_bell.wavはUnicorn様が制作した[ats_p_bell.wav](https://github.com/ui
 **改造は自己責任**です。改造による損失は当方は一切責任を負いません。
 
 ## 動画投稿について
-広告収入を得ないなど**営利目的ではない場合に限り**E233系3000番台車両データを使用した動画、スクリーンショットの投稿を認めます。<br>
+広告収入を得ないなど**営利目的でない場合に限り**E233系3000番台車両データを使用した動画、スクリーンショットの投稿を認めます。<br>
 動画、スクリーンショット以外は認めません。<br>
 車両データを改変している場合は、動画、スクリーンショットの投稿は**認められません**。
 
 ## ダウンロード
 [こちら](https://github.com/E233-3639/BVE_E233-3000_Data/archive/refs/tags/ver1.05.zip)よりダウンロードください。<br>
-ダウンロード後、展開してお好みの場所にデータを配置してください。<br>
+ダウンロード後、「BVE_E233-3000_Data-ver1.05.zip」を右クリック→すべて展開を選択してください。<br>
 ※車両データをダウンロードしたことによる損失は当方は一切責任を負いません。
 
 ## 運転方法
@@ -46,25 +46,51 @@ ats_p_bell.wavはUnicorn様が制作した[ats_p_bell.wav](https://github.com/ui
 対応している保安装置はATS-Pのみとなります。
 
 ### Vehicleファイルについて
-車両データを読み込ませるためにはVehicleファイルをScinarioファイルに定義する必要があります。
+**車両データを読み込ませるためにはVehicleファイルをScenarioファイルに定義する必要があります。**<br>
 この車両データにはVehicle1.txtとVehicle2.txtがありドアチャイムが異なります。
 * Vehicle1.txt  一般的なドアチャイム
 * Vehicle2.txt  2017年増備車(E73編成 E74編成)のドアチャイム
 
-Vehicleファイルのファイルパスは E233-3000_ver1.05¥OriginalData¥Vehicle1.txt 、<br>
-または E233-3000_ver1.05¥OriginalData¥Vehicle2.txt となります。
-※ただし、このファイルパスは最も短く書く場合のファイルパスで、車両データと路線データのファイル配置によっては、ここに記載しているファイルパスの頭にさらにファイルパスを書く必要がある場合があります。
+では実際にどうやって車両データを読み込ませるのかをご説明します。その際にはVehicleファイル、Scenarioファイル、ファイルパスについて理解する必要があります。<br>
+* Vehicleファイルとは？<br>
+Vehicleファイルとは車両データを読み込ませる読み込ませるために必要です。Vehicleファイルの場所(ファイルパス)をScenarioファイルに定義することでできます。
+
+* Scenarioファイルとは？<br>
+Scenarioファイルとは路線データを読み込ませるために必要です。ダイヤや種別ごとにそれぞれ用意されています。<br>
+ScenarioファイルをBVEに読み込むことでプレイできるようになります。<br>
+Scenarioファイルは開くと頭に「BveTs Scenario」と書かれています。シナリオ一つ一つがScenarioファイルです。<br>
+![image](https://user-images.githubusercontent.com/66541951/131004091-2b30a83f-2ea3-40a7-b725-03a95cad675b.png)
+
+画像内に「Vehicle = 車両データのファイルパス」という式があります。<br>
+**この式の右辺にVehicleファイルまでのファイルパスを記述することで、このシナリオをプレイする際に定義した車両データが読み込まれるようになります。**<br>
+![image](https://user-images.githubusercontent.com/66541951/130986557-982bb36a-c8d5-4823-b528-1dcf3be5e516.png)<br>
+
+* ファイルパスとは？
+**ファイルパスとはファイルの場所を表す地図のようなものです。** これをもとにBVEは車両データを探します。<br>
+(そもそもファイルとは画像や音などのデータのこと、それらをまとめるものをフォルダーと言います。)<br><br>
+Vehicleファイルのファイルパスを書いてみましょう。<br><br>
+
+例<br>
+Scenario.txtはScenarioファイル、Vehicle.txtはVehicleファイルのことを指します。<br>
+Vehicle.txtへのファイルパスを記述するのはScenario.txtです。なのでScenario.txtにVehicle.txtまでの道を教えてあげましょう。<br>
+Scenario.txtはtestlineの中にあります。<br>
+Vehicle.txtまでは、「①testlineから一つ戻ってScenarioに移動、②trainに進む、③Vehicle.txtを見つける」というように表すことができます。<br>
+![名称未設定](https://user-images.githubusercontent.com/66541951/131015446-e21c93c8-4f9a-4788-97c2-7a22af765fae.png)<br>
+ですがこれは日本語ですので伝わりません。これをPCがわかるように書き換えましょう。<br>
+書き換えると「①..¥、②train¥、③Vehicle.txt」となります。<br>
+「..」は一つ前のフォルダー(この場合Scenarioを指します)という意味、そしてフォルダー名(ファイル名)の間に「¥」を書きます。<br>
+よってこの場合のファイルパスは ..¥train¥Vehicle.txt となります。
+
 
 ### BVEにおけるキー
 BVEにはキーボードで様々な操作ができます。またBVEではA1キー、B1キーといった名前のものが存在します。これはBVE内でのキーの名称で、実際にどのキー(Enterキーやスペースキーなど)に割り当てることで使用できます。またキーの割り当ては個人で自由に変更できます。<br>
-変更や割り当てられているキーを確認する場合は、BVEの画面を右クリック→設定→入力デバイス→キーの割り当てです。
+変更や割り当てられているキーを確認する場合は、BVEの画面を右クリック→設定→入力デバイス→キーの割り当てです。<br>
 ![image](https://user-images.githubusercontent.com/66541951/129451992-ca2eb0f6-2469-4d7a-b36d-99b9a27b48db.png)
 
 ### ATS復帰扱い
 ATS-Pのパターンを超えたり、進んでいる向きとは逆に逆転ハンドルを切り替えるとATSブレーキが動作します。<br>
-「ブレーキ動作」が点灯中はATSブレーキが作動しています。
-![image](https://user-images.githubusercontent.com/66541951/129451622-0256f428-8c88-4f96-99b5-fa304fca4b73.png)
-
+「ブレーキ動作」が点灯中はATSブレーキが作動しています。<br>
+![image](https://user-images.githubusercontent.com/66541951/129451622-0256f428-8c88-4f96-99b5-fa304fca4b73.png)<br>
 ATS復帰扱いは常用ブレーキ以上または非常ブレーキ(状況によりかける必要があるブレーキが異なります)をかけた状態で、B1キー(BVE内でのキー名称　デフォルトではHOMEキー)を押すと解除されます。
 
 ### EB装置について
@@ -79,8 +105,8 @@ ATS復帰扱いは常用ブレーキ以上または非常ブレーキ(状況に�
 
 ## Run音について
 Run音とは走行中、常に再生される走行音のことです(モーター音とは異なります)。路線データによっては「鉄橋を走っていないのに鉄橋の走行音になる」といったことが起きる場合があります。<br>
-Run音は車両データのSound.txtで以下の画像のように定義されてます。
-![image](https://user-images.githubusercontent.com/66541951/129504233-e93cf162-e93c-4825-95dd-a546376bad1b.png)
+Run音は車両データのSound.txtで以下の画像のように定義されてます。<br>
+![image](https://user-images.githubusercontent.com/66541951/129504233-e93cf162-e93c-4825-95dd-a546376bad1b.png)<br>
 * Run_Long1.wav        ロングレール
 * Run_Long2.wav        ロングレール(東海道線 川崎ー品川間)
 * Run_Short.wav        25mレール
