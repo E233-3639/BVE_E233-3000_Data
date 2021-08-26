@@ -1,0 +1,100 @@
+BveTs Vehicle Parameters 2.01
+
+FirstCar=T
+LoadCompensating = true
+
+[OneLeverCab]
+BrakeNotchCount = 8
+PowerNotchCount = 5
+HoldingSpeedNotchCount = 0
+AtsCancelNotch = 0
+MotorBrakeNotch = 1
+ReverserText = 後,切,前
+PowerText = N,P1,P2,P3,P4,P5
+BrakeText = N,B1,B2,B3,B4,B5,B6,B7,B8,非常
+
+[ConstantSpeedControl]
+Power = 3
+Neutral = 2
+Brake = 0
+
+[MainCircuit]
+RegenerationLimit = 0
+RegenerationStartLimit = 3
+LeverDelay = 0.5
+BrakePriority = true
+
+[PowerReAdhesion]
+SlipVelocity = 3
+SlipAcceleration = 10
+BalanceAcceleration = -5
+HoldingTime = 0.05
+ReferenceAcceleration = 3
+ReferenceDeceleration = 6
+CurrentDecrease = 2000
+CurrentIncrease = 2000
+
+[ECB]
+MaximumPressure = 340000
+PressureRates = 0,0.11764705882352941176470588235294,0.23529411764705882352941176470588,0.35294117647058823529411764705882,0.47058823529411764705882352941176,0.5882352941176470588235294117647,0.70588235294117647058823529411764,0.82352941176470588235294117647058,1,1
+SapBcRatio = 1
+SapBcOffset = 1000
+LeverDelay = 0.5
+
+[AirSupplement]
+MaximumPressure = 221000
+InitialPressure = 40000
+RegenerationLimit = 0
+ShoeFriction = 0.27
+
+[BcServo]
+ApplySpeed = 400
+ReleaseSpeed = 250
+VolumeRatio = 15
+ApplyStart = 0
+ApplyStop = 0
+ReleaseStart = 0
+ReleaseStop = 0
+
+[Brake]
+PistonArea = 0.585
+ShoeFriction = 0.3833, 0.0149, 0.0281
+
+[BrakeReAdhesion]
+SlipVelocity = 15
+SlipDeceleration = 20
+BalanceDeceleration = 0
+HoldingTime = 0
+ReferenceDeceleration = 6
+BcReleaseSpeed = 700
+BcApplySpeed = 700 
+
+[Compressor]
+LowerPressure = 780000
+UpperPressure = 882500
+CompressionSpeed = 2250
+
+[Dynamics]
+MotorcarWeight = 32850
+TrailerWeight = 33629
+MotorcarCount = 8
+TrailerCount = 7
+MotorcarInertiaFactor = 0.1
+TrailerInertiaFactor = 0.05
+CarLength = 20
+RunningResistanceFactor = 1.339, 70.07, 6058
+#CurveResistanceFactor = 
+
+[Passengers]
+Capacity = 144
+BodyWeight = 60
+BoardingSpeed = 3.15
+AlightingSpeed = 6.3
+
+[Door]
+CloseTime = 3.0
+
+[ViewPoint]
+X = -0.8
+Y = 2.75
+Z = -1.3
