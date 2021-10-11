@@ -10,9 +10,7 @@ E233系3000番台はJR東日本が所有する一般型車両で、東海道線�
 運転台、計器モニター、TIMSモニター、モニター類の表示のラグ、予備ワイパー(未動作)、モーター音、走行音、ブレーキ音など。<br>
 ※本物をもとに再現しておりますが、全てを再現しきれていなかったり本物と違う箇所がある場合があります。ご了承ください。<br>
 
-<h2 id = "test" style = "animation: animTest 1s liner infinite}
-  @keyframes animTest {0%{transform: rotateX(0deg);}
-  100%{transform: rotateX(360deg)}">著作権について</h2>
+##著作権について
 
 
 
