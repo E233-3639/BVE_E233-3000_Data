@@ -552,3 +552,39 @@ DaytimeImage = Panel's picture\Number 2 TIMS monitor\TIMS_Number_small.png
 NighttimeImage = Panel's picture\Number 2 TIMS monitor\TIMS_Number_small.png
 Layer = 2
 Interval = 17
+
+#TIMS距離表示 0.1
+[DigitalNumber]
+Subject = ats190
+Location = 2643, 2217
+DaytimeImage = Panel's picture\Number 2 TIMS monitor\TIMS_Number_small.png
+NighttimeImage = Panel's picture\Number 2 TIMS monitor\TIMS_Number_small.png
+Layer = 2
+Interval = 17
+
+#TIMS距離表示 1の位
+[DigitalNumber]
+Subject = ats191
+Location = 2613, 2217
+DaytimeImage = Panel's picture\Number 2 TIMS monitor\TIMS_Number_small.png
+NighttimeImage = Panel's picture\Number 2 TIMS monitor\TIMS_Number_small.png
+Layer = 2
+Interval = 17
+
+#TIMS距離表示 10位
+[DigitalNumber]
+Subject = ats192
+Location = 2598, 2217
+DaytimeImage = Panel's picture\Number 2 TIMS monitor\TIMS_Number_small.png
+NighttimeImage = Panel's picture\Number 2 TIMS monitor\TIMS_Number_small.png
+Layer = 2
+Interval = 17
+
+#TIMS距離表示 100位
+[DigitalNumber]
+Subject = ats193
+Location = 2583, 2217
+DaytimeImage = Panel's picture\Number 2 TIMS monitor\TIMS_Number_small.png
+NighttimeImage = Panel's picture\Number 2 TIMS monitor\TIMS_Number_small.png
+Layer = 2
+Interval = 17
