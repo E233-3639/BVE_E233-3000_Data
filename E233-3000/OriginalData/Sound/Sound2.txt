@@ -78,7 +78,7 @@ CloseRight = Door\DoorClose2.wav
 1 = Air\AirUp.wav
 10 = Air\AirDownEB.wav
 
-200 = ..\..\ExternalData\Sound\ATS\ats_p_bell.wav
+200 = ..\..\ExternalData\Sound\ATS\ats_p_bell2.wav
 201 = ..\..\ExternalData\Sound\ATS\ATS.wav
 203 = ..\..\ExternalData\Sound\ATS\EB.wav
 
