@@ -32,7 +32,7 @@ jobs:
         run: echo ::set-output name=value::${GITHUB_REF/refs\/tags\//}
       - name: Create zip
         run: |
-          ffmpeg -i GeneralAtsPlugin/Unicorn/sound/ats_p_bell.wav -af "volume=-5dB" E233-3000/ExternalData/Sound/ats_p_bell.wav
+          ffmpeg -i GeneralAtsPlugin/Unicorn/sound/ats_p_bell2.wav -af "volume=-5dB" E233-3000/ExternalData/Sound/ats_p_bell2.wav
           mkdir deploy
           zip deploy/${{ steps.tag.outputs.value }}.zip -r E233-3000
       - name: Release
