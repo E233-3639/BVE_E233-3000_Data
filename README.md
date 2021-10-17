@@ -73,11 +73,11 @@ Scenario.txtはScenarioファイル、Vehicle.txtはVehicleファイルのこと
 Vehicle.txtへのファイルパスを記述するのはScenario.txtです。なのでScenario.txtにVehicle.txtまでの道を教えてあげましょう。<br>
 Scenario.txtはtestlineの中にあります。<br>
 Vehicle.txtまでは、「①testlineから一つ戻ってScenarioに移動、②trainに進む、③Vehicle.txtを見つける」というように表すことができます。<br>
-![名称未設定](https://user-images.githubusercontent.com/66541951/131015446-e21c93c8-4f9a-4788-97c2-7a22af765fae.png)<br>
+![ファイル構成の説明](https://user-images.githubusercontent.com/66541951/131015446-e21c93c8-4f9a-4788-97c2-7a22af765fae.png)<br>
 ですがこれは日本語ですので伝わりません。これをPCがわかるように書き換えましょう。<br>
 書き換えると「①..¥、②train¥、③Vehicle.txt」となります。<br>
 「..」は一つ前のフォルダー(この場合Scenarioを指します)という意味、そしてフォルダー名(ファイル名)の間に「¥」を書きます。<br>
-よって**この場合のファイルパスは ..¥train¥Vehicle.txt** となります。<br>
+よって**この場合のファイルパスは ..¥train¥Vehicle.txt**となります。<br>
 
 
 ## 運転方法
@@ -97,7 +97,7 @@ ATS復帰扱いは常用ブレーキ以上または非常ブレーキ(状況に�
 
 ### EB装置について
 一分間マスコンなどを操作しないとブザーが鳴動します。<br>
-ブザー鳴動から10秒以内にA2キー(BVE内でのキー名称　デフォルトではdeleteキー)を押さなかった場合、非常ブレーキが動作します。
+ブザー鳴動から10秒以内にA2キー(BVE内でのキー名称　デフォルトではdeleteキー)を押さなかった場合、非常ブレーキが動作します。<br>
 その場合は停止したのち、非常ブレーキをかけることで復帰します。<br>
 
 ### 定速・抑速制御
