@@ -24,7 +24,7 @@ OriginalDataは[当方](https://github.com/E233-3639)が制作したものです
 ### ExternalData
 ExternalDataは他作者からお借りしているデータがございます。お借りしているデータは以下の通りです。<br>
 ATS.wav、ATS_Cnt.wav、EB.wav、HornA.wav、HornB.wav、HornC.wav、HornD.wavは[BVE Trainsim 内房線 for BVE5.8 & BVE6.0 正式版](http://bvets.net/uchibo/)に含まれるデータをお借りし、一部編集して使用しております。<br>
-ats_p_bell.wavはUnicorn様が制作した[ats_p_bell.wav](https://github.com/uifnm/GeneralAtsPlugin/tree/master/Unicorn/sound)を使用させていただいております。<br>
+ats_p_bell2.wavはUnicorn様が制作した[ats_p_bell.wav2](https://github.com/uifnm/GeneralAtsPlugin/tree/master/Unicorn/sound)を使用させていただいております。<br>
 **ExternalDataの著作権は[当方](https://github.com/E233-3639)にはありません。**<br>
 
 ### 二次利用などについて
@@ -37,7 +37,7 @@ ats_p_bell.wavはUnicorn様が制作した[ats_p_bell.wav](https://github.com/ui
 車両データを改変している場合は、動画、スクリーンショットの投稿は**認められません**。<br>
 
 ## ダウンロード
-[こちら](https://github.com/E233-3639/BVE_E233-3000_Data/archive/refs/tags/ver1.06.zip)よりダウンロードください。<br>
+[こちら](https://github.com/E233-3639/BVE_E233-3000_Data/releases/download/ver1.07/E233-3000_ver1.07.zip)よりダウンロードください。<br>
 ダウンロード後、「BVE_E233-3000_Data-ver1.06.zip」を右クリック→すべて展開を選択してください。<br>
 ※車両データをダウンロードしたことによる損失は当方は一切責任を負いません。<br>
 
@@ -53,7 +53,7 @@ ats_p_bell.wavはUnicorn様が制作した[ats_p_bell.wav](https://github.com/ui
 Vehicleファイルとは車両データを読み込ませる読み込ませるために必要です。Vehicleファイルの場所(ファイルパス)をScenarioファイルに定義することでできます。<br>
 Vehicleファイルは頭に「BveTs Vehicle」と書かれています。<br>
 
-### Scenarioファイルとは？<br>
+### Scenarioファイルとは？
 Scenarioファイルとは路線データを読み込ませるために必要です。ダイヤや種別ごとにそれぞれ用意されています。<br>
 ScenarioファイルをBVEに読み込むことでプレイできるようになります。<br>
 Scenarioファイルは頭に「BveTs Scenario」と書かれています。下記画像のシナリオ一つ一つがScenarioファイルです。<br>
