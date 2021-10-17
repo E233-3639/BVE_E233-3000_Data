@@ -24,6 +24,7 @@ jobs:
           submodules: true
       - name: ffmpeg
         run: |1
+          sudo apt-get update
           sudo apt-get install -y ffmpeg
           ffmpeg -version
       - name: set-output tag value
