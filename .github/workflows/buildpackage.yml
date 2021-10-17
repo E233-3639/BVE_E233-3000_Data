@@ -34,7 +34,7 @@ jobs:
         run: |
           ffmpeg -i GeneralAtsPlugin/Unicorn/sound/ats_p_bell2.wav -af "volume=-5dB" E233-3000/ExternalData/Sound/ats_p_bell2.wav
           mkdir deploy
-          zip deploy/${{ steps.tag.outputs.value }}.zip -r E233-3000/OriginalData E233-3000/ExternalData E233-3000/README.html
+          zip deploy/E233-3000_${{ steps.tag.outputs.value }}.zip -r E233-3000/OriginalData E233-3000/ExternalData E233-3000/README.html
       - name: Release
         uses: softprops/action-gh-release@v1
         with:
