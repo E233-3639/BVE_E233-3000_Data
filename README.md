@@ -49,6 +49,7 @@ ats_p_bell2.wavはUnicorn様が制作した[ats_p_bell.wav2](https://github.com/
 
 では実際にどうやって車両データを読み込ませるのかをご説明します。<br>
 その際にはVehicleファイル、Scenarioファイル、ファイルパスについて理解する必要があります。<br>
+
 ### Vehicleファイルとは？<br>
 Vehicleファイルとは車両データを読み込ませる読み込ませるために必要です。Vehicleファイルの場所(ファイルパス)をScenarioファイルに定義することでできます。<br>
 Vehicleファイルは頭に「BveTs Vehicle」と書かれています。<br>
@@ -57,7 +58,7 @@ Vehicleファイルは頭に「BveTs Vehicle」と書かれています。<br>
 Scenarioファイルとは路線データを読み込ませるために必要です。ダイヤや種別ごとにそれぞれ用意されています。<br>
 ScenarioファイルをBVEに読み込むことでプレイできるようになります。<br>
 Scenarioファイルは頭に「BveTs Scenario」と書かれています。下記画像のシナリオ一つ一つがScenarioファイルです。<br>
-![image](https://user-images.githubusercontent.com/66541951/131004091-2b30a83f-2ea3-40a7-b725-03a95cad675b.png)<br><br>
+![image](https://user-images.githubusercontent.com/66541951/137824410-bd7dcb37-2c89-4248-a91e-11e60dad422a.png)<br><br>
 
 画像内に「Vehicle = 車両データのファイルパス」という式があります。<br>
 **この式の右辺にVehicleファイルまでのファイルパスを記述することで、このシナリオをプレイする際に定義した車両データが読み込まれるようになります。**<br>
@@ -73,7 +74,7 @@ Scenario.txtはScenarioファイル、Vehicle.txtはVehicleファイルのこと
 Vehicle.txtへのファイルパスを記述するのはScenario.txtです。なのでScenario.txtにVehicle.txtまでの道を教えてあげましょう。<br>
 Scenario.txtはtestlineの中にあります。<br>
 Vehicle.txtまでは、「①testlineから一つ戻ってScenarioに移動、②trainに進む、③Vehicle.txtを見つける」というように表すことができます。<br>
-![ファイル構成の説明](https://user-images.githubusercontent.com/66541951/131015446-e21c93c8-4f9a-4788-97c2-7a22af765fae.png)<br>
+![image](https://user-images.githubusercontent.com/66541951/131015446-e21c93c8-4f9a-4788-97c2-7a22af765fae.png)<br>
 ですがこれは日本語ですので伝わりません。これをPCがわかるように書き換えましょう。<br>
 書き換えると「①..¥、②train¥、③Vehicle.txt」となります。<br>
 「..」は一つ前のフォルダー(この場合Scenarioを指します)という意味、そしてフォルダー名(ファイル名)の間に「¥」を書きます。<br>
