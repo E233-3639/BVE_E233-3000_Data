@@ -37,7 +37,7 @@ ats_p_bell2.wavはUnicorn様が制作した[ats_p_bell.wav2](https://github.com/
 車両データを改変している場合は、動画、スクリーンショットの投稿は**認められません**。<br>
 
 ## ダウンロード
-[こちら](https://github.com/E233-3639/BVE_E233-3000_Data/releases/download/ver1.071/E233-3000_ver1.071.zip)よりダウンロードください。<br>
+[こちら](https://github.com/E233-3639/BVE_E233-3000_Data/releases/download/ver1.072/E233-3000_ver1.072.zip)よりダウンロードください。<br>
 ダウンロード後、「BVE_E233-3000_Data-ver1.06.zip」を右クリック→すべて展開を選択してください。<br>
 ※車両データをダウンロードしたことによる損失は当方は一切責任を負いません。<br>
 
